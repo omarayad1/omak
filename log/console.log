@@ -1,0 +1,34 @@
+2014-05-25 00:08:59.538 [info] <0.7.0> Application lager started on node 'omak@Omar-Ayad'
+2014-05-25 00:08:59.546 [info] <0.7.0> Application crypto started on node 'omak@Omar-Ayad'
+2014-05-25 00:08:59.562 [info] <0.7.0> Application mimetypes started on node 'omak@Omar-Ayad'
+2014-05-25 00:08:59.637 [info] <0.95.0> Starting Boss in development mode....
+
+2014-05-25 00:08:59.660 [info] <0.95.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mock options [{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]
+2014-05-25 00:08:59.696 [notice] <0.63.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2014-05-25 00:08:59.744 [info] <0.95.0> Starting master services on 'omak@Omar-Ayad'
+
+2014-05-25 00:08:59.767 [info] <0.7.0> Application tinymq started on node 'omak@Omar-Ayad'
+2014-05-25 00:08:59.804 [info] <0.95.0> SSL:[]
+
+2014-05-25 00:08:59.808 [info] <0.95.0> Starting cowboy... on 'omak@Omar-Ayad'
+
+2014-05-25 00:08:59.815 [info] <0.7.0> Application cowlib started on node 'omak@Omar-Ayad'
+2014-05-25 00:08:59.829 [info] <0.7.0> Application ranch started on node 'omak@Omar-Ayad'
+2014-05-25 00:08:59.845 [info] <0.7.0> Application cowboy started on node 'omak@Omar-Ayad'
+2014-05-25 00:08:59.845 [info] <0.95.0> Starting http listener... on 0.0.0.0:8001 
+
+2014-05-25 00:08:59.937 [info] <0.95.0>@boss_load:load_all_modules:57 Loading application omak
+2014-05-25 00:08:59.950 [notice] <0.95.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/mail/omak_outgoing_mail_controller.erl" with options [{out_dir,undefined},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-25 00:08:59.994 [notice] <0.95.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/mail/omak_incoming_mail_controller.erl" with options [{out_dir,undefined},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-25 00:09:00.013 [notice] <0.95.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/view/lib/tag_modules/omak_custom_tags.erl" with options [{out_dir,undefined},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-25 00:09:00.023 [notice] <0.95.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/view/lib/filter_modules/omak_custom_filters.erl" with options [{out_dir,undefined},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-25 00:09:00.025 [info] <0.95.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  omak_view_lib_tags
+2014-05-25 00:09:00.086 [notice] <0.95.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/priv/init/omak_01_news.erl" with options [{include_dirs,["/home/omarayad1/Documents/git/omak/include"]}] 
+2014-05-25 00:09:13.135 [notice] <0.272.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-25 00:09:13.142 [warning] <0.6.0> lager_error_logger_h dropped 83 messages in the last second that exceeded the limit of 50 messages/sec
+2014-05-25 00:09:13.142 [info] <0.262.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-25 00:09:13.154 [error] <0.272.0> GET /greeting/hello [omak] 404 0ms
+2014-05-25 00:09:13.891 [notice] <0.273.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-25 00:09:17.357 [notice] <0.275.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-25 00:09:17.358 [info] <0.262.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-25 00:09:17.359 [error] <0.275.0> GET / [omak] 404 0ms
