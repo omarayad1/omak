@@ -1,3 +1,4 @@
 2014-05-25 00:09:13 =ERROR REPORT====
 GET /greeting/hello [omak] 404 0ms2014-05-25 00:09:17 =ERROR REPORT====
+GET / [omak] 404 0ms2014-05-25 11:44:39 =ERROR REPORT====
 GET / [omak] 404 0ms
