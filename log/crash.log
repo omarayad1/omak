@@ -1,4 +1,59 @@
 2014-05-25 00:09:13 =ERROR REPORT====
 GET /greeting/hello [omak] 404 0ms2014-05-25 00:09:17 =ERROR REPORT====
 GET / [omak] 404 0ms2014-05-25 11:44:39 =ERROR REPORT====
-GET / [omak] 404 0ms
+GET / [omak] 404 0ms2014-05-26 22:10:41 =ERROR REPORT====
+** Generic server <0.263.0> terminating 
+** Last message in was {route,"/"}
+** When Server state == {state,omak,["omak_index_controller"],45086,49183,53280}
+** Reason for termination == 
+** {'module could not be loaded',[{omak_index_controller,module_info,[exports],[]},{boss_controller_lib,convert_params_to_tokens,3,[{file,"src/boss/boss_controller_lib.erl"},{line,5}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,173}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-05-26 22:10:41 =CRASH REPORT====
+  crasher:
+    initial call: boss_router_controller:init/1
+    pid: <0.263.0>
+    registered_name: []
+    exception exit: {{undef,[{omak_index_controller,module_info,[exports],[]},{boss_controller_lib,convert_params_to_tokens,3,[{file,"src/boss/boss_controller_lib.erl"},{line,5}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,173}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,746}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.262.0>,boss_web,boss_sup,<0.93.0>]
+    messages: []
+    links: [<0.262.0>]
+    dictionary: [{boss_environment,development}]
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 2745
+  neighbours:
+2014-05-26 22:10:41 =SUPERVISOR REPORT====
+     Supervisor: {<0.262.0>,boss_router_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{omak_index_controller,module_info,[exports],[]},{boss_controller_lib,convert_params_to_tokens,3,[{file,"src/boss/boss_controller_lib.erl"},{line,5}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,173}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.263.0>},{name,router_controller},{mfargs,{boss_router_controller,start_link,[[{application,omak},{controllers,["omak_index_controller"]}]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+
+2014-05-26 22:10:53 =ERROR REPORT====
+** Generic server <0.275.0> terminating 
+** Last message in was {route,"/"}
+** When Server state == {state,omak,["omak_index_controller"],57376,61471,65566}
+** Reason for termination == 
+** {'module could not be loaded',[{omak_index_controller,module_info,[exports],[]},{boss_controller_lib,convert_params_to_tokens,3,[{file,"src/boss/boss_controller_lib.erl"},{line,5}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,173}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-05-26 22:10:53 =CRASH REPORT====
+  crasher:
+    initial call: boss_router_controller:init/1
+    pid: <0.275.0>
+    registered_name: []
+    exception exit: {{undef,[{omak_index_controller,module_info,[exports],[]},{boss_controller_lib,convert_params_to_tokens,3,[{file,"src/boss/boss_controller_lib.erl"},{line,5}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,173}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},[{gen_server,terminate,6,[{file,"gen_server.erl"},{line,746}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+    ancestors: [<0.262.0>,boss_web,boss_sup,<0.93.0>]
+    messages: []
+    links: [<0.262.0>]
+    dictionary: [{boss_environment,development}]
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 2736
+  neighbours:
+2014-05-26 22:10:53 =SUPERVISOR REPORT====
+     Supervisor: {<0.262.0>,boss_router_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{omak_index_controller,module_info,[exports],[]},{boss_controller_lib,convert_params_to_tokens,3,[{file,"src/boss/boss_controller_lib.erl"},{line,5}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,173}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+     Offender:   [{pid,<0.275.0>},{name,router_controller},{mfargs,{boss_router_controller,start_link,[[{application,omak},{controllers,["omak_index_controller"]}]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+

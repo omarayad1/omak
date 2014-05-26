@@ -70,3 +70,333 @@
 2014-05-25 11:45:39.299 [notice] <0.275.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
 2014-05-25 11:45:39.299 [notice] <0.275.0>@boss_controller_adapter_pmod:action:92 Tokens []
 2014-05-25 11:45:39.324 [info] <0.275.0> GET / [omak] 200 0ms
+2014-05-26 03:14:03.713 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-05-26 03:14:03.787 [info] <0.2.0>@boss_load:load_all_modules:57 Loading application omak
+2014-05-26 03:14:03.787 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/mail/omak_outgoing_mail_controller.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 03:14:03.861 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/mail/omak_incoming_mail_controller.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 03:14:03.879 [info] <0.2.0>@boss_controller_compiler:compile:59 Compile controller /home/omarayad1/Documents/git/omak/src/controller/omak_root_controller.erl
+2014-05-26 03:14:03.879 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/controller/omak_root_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 03:14:03.897 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/view/lib/tag_modules/omak_custom_tags.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 03:14:03.909 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/view/lib/filter_modules/omak_custom_filters.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 03:14:03.918 [info] <0.2.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  omak_view_lib_tags
+2014-05-26 18:54:33.546 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-05-26 18:54:33.590 [info] <0.2.0>@boss_load:load_all_modules:57 Loading application omak
+2014-05-26 18:54:33.618 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/test/functional/register_email_test.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:54:33.715 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/mail/omak_outgoing_mail_controller.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:54:33.789 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/mail/omak_incoming_mail_controller.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:54:33.806 [info] <0.2.0>@boss_controller_compiler:compile:59 Compile controller /home/omarayad1/Documents/git/omak/src/controller/omak_root_controller.erl
+2014-05-26 18:54:33.806 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/controller/omak_root_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:54:33.815 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/view/lib/tag_modules/omak_custom_tags.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:54:33.822 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/view/lib/filter_modules/omak_custom_filters.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:54:33.848 [info] <0.2.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  omak_view_lib_tags
+2014-05-26 18:54:52.538 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-05-26 18:54:52.580 [info] <0.2.0>@boss_load:load_all_modules:57 Loading application omak
+2014-05-26 18:54:52.610 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/test/functional/register_email_test.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:54:52.658 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/mail/omak_outgoing_mail_controller.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:54:52.680 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/mail/omak_incoming_mail_controller.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:54:52.683 [info] <0.2.0>@boss_controller_compiler:compile:59 Compile controller /home/omarayad1/Documents/git/omak/src/controller/omak_root_controller.erl
+2014-05-26 18:54:52.683 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/controller/omak_root_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:54:52.687 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/view/lib/tag_modules/omak_custom_tags.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:54:52.690 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/view/lib/filter_modules/omak_custom_filters.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:54:52.692 [info] <0.2.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  omak_view_lib_tags
+2014-05-26 18:54:52.852 [info] <0.7.0> Application omak started on node nonode@nohost
+2014-05-26 18:54:52.852 [info] <0.181.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-26 18:54:52.898 [info] <0.2.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mock options [{adapter,mock}]
+2014-05-26 18:54:53.039 [info] <0.7.0> Application tinymq started on node nonode@nohost
+2014-05-26 18:54:53.039 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/priv/init/omak_01_news.erl" with options [{include_dirs,["/home/omarayad1/Documents/git/omak/include"]}] 
+2014-05-26 18:54:53.117 [info] <0.2.0>@boss_load:load_all_modules:57 Loading application omak
+2014-05-26 18:54:53.119 [info] <0.2.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  omak_view_lib_tags
+2014-05-26 18:55:59.195 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-05-26 18:55:59.237 [info] <0.2.0>@boss_load:load_all_modules:57 Loading application omak
+2014-05-26 18:55:59.262 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/test/functional/register_email_test.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:55:59.308 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/mail/omak_outgoing_mail_controller.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:55:59.324 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/mail/omak_incoming_mail_controller.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:55:59.327 [info] <0.2.0>@boss_controller_compiler:compile:59 Compile controller /home/omarayad1/Documents/git/omak/src/controller/omak_root_controller.erl
+2014-05-26 18:55:59.327 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/controller/omak_root_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:55:59.333 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/view/lib/tag_modules/omak_custom_tags.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:55:59.338 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/view/lib/filter_modules/omak_custom_filters.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:55:59.341 [info] <0.2.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  omak_view_lib_tags
+2014-05-26 18:55:59.506 [info] <0.7.0> Application omak started on node nonode@nohost
+2014-05-26 18:55:59.507 [info] <0.181.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-26 18:55:59.519 [info] <0.2.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mock options [{adapter,mock}]
+2014-05-26 18:55:59.604 [info] <0.7.0> Application tinymq started on node nonode@nohost
+2014-05-26 18:55:59.605 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/priv/init/omak_01_news.erl" with options [{include_dirs,["/home/omarayad1/Documents/git/omak/include"]}] 
+2014-05-26 18:55:59.641 [info] <0.2.0>@boss_load:load_all_modules:57 Loading application omak
+2014-05-26 18:55:59.642 [info] <0.2.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  omak_view_lib_tags
+2014-05-26 18:56:18.501 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-05-26 18:56:18.545 [info] <0.2.0>@boss_load:load_all_modules:57 Loading application omak
+2014-05-26 18:56:18.559 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/test/functional/register_email_test.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:56:18.613 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/mail/omak_outgoing_mail_controller.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:56:18.633 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/mail/omak_incoming_mail_controller.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:56:18.635 [info] <0.2.0>@boss_controller_compiler:compile:59 Compile controller /home/omarayad1/Documents/git/omak/src/controller/omak_root_controller.erl
+2014-05-26 18:56:18.635 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/controller/omak_root_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:56:18.640 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/view/lib/tag_modules/omak_custom_tags.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:56:18.642 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/view/lib/filter_modules/omak_custom_filters.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:56:18.644 [info] <0.2.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  omak_view_lib_tags
+2014-05-26 18:56:22.658 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-05-26 18:56:22.715 [info] <0.2.0>@boss_load:load_all_modules:57 Loading application omak
+2014-05-26 18:56:22.745 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/test/functional/register_email_test.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:56:22.791 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/mail/omak_outgoing_mail_controller.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:56:22.813 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/mail/omak_incoming_mail_controller.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:56:22.819 [info] <0.2.0>@boss_controller_compiler:compile:59 Compile controller /home/omarayad1/Documents/git/omak/src/controller/omak_root_controller.erl
+2014-05-26 18:56:22.819 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/controller/omak_root_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:56:22.827 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/view/lib/tag_modules/omak_custom_tags.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:56:22.829 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/view/lib/filter_modules/omak_custom_filters.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:56:22.831 [info] <0.2.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  omak_view_lib_tags
+2014-05-26 18:56:23.007 [info] <0.7.0> Application omak started on node nonode@nohost
+2014-05-26 18:56:23.007 [info] <0.181.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-26 18:56:23.023 [info] <0.2.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mock options [{adapter,mock}]
+2014-05-26 18:56:23.115 [info] <0.7.0> Application tinymq started on node nonode@nohost
+2014-05-26 18:56:23.115 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/priv/init/omak_01_news.erl" with options [{include_dirs,["/home/omarayad1/Documents/git/omak/include"]}] 
+2014-05-26 18:56:23.156 [info] <0.2.0>@boss_load:load_all_modules:57 Loading application omak
+2014-05-26 18:56:23.157 [info] <0.2.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  omak_view_lib_tags
+2014-05-26 18:57:16.272 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-05-26 18:57:16.315 [info] <0.2.0>@boss_load:load_all_modules:57 Loading application omak
+2014-05-26 18:57:16.328 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/test/functional/register_email_test.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:57:16.389 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/mail/omak_outgoing_mail_controller.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:57:16.409 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/mail/omak_incoming_mail_controller.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:57:16.412 [info] <0.2.0>@boss_controller_compiler:compile:59 Compile controller /home/omarayad1/Documents/git/omak/src/controller/omak_root_controller.erl
+2014-05-26 18:57:16.412 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/controller/omak_root_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:57:16.416 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/view/lib/tag_modules/omak_custom_tags.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:57:16.419 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/view/lib/filter_modules/omak_custom_filters.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:57:16.421 [info] <0.2.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  omak_view_lib_tags
+2014-05-26 18:57:19.665 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-05-26 18:57:19.706 [info] <0.2.0>@boss_load:load_all_modules:57 Loading application omak
+2014-05-26 18:57:19.736 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/test/functional/register_email_test.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:57:19.787 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/mail/omak_outgoing_mail_controller.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:57:19.805 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/mail/omak_incoming_mail_controller.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:57:19.808 [info] <0.2.0>@boss_controller_compiler:compile:59 Compile controller /home/omarayad1/Documents/git/omak/src/controller/omak_root_controller.erl
+2014-05-26 18:57:19.808 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/controller/omak_root_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:57:19.812 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/view/lib/tag_modules/omak_custom_tags.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:57:19.814 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/view/lib/filter_modules/omak_custom_filters.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:57:19.816 [info] <0.2.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  omak_view_lib_tags
+2014-05-26 18:57:19.987 [info] <0.7.0> Application omak started on node nonode@nohost
+2014-05-26 18:57:19.987 [info] <0.181.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-26 18:57:20.001 [info] <0.2.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mock options [{adapter,mock}]
+2014-05-26 18:57:20.093 [info] <0.7.0> Application tinymq started on node nonode@nohost
+2014-05-26 18:57:20.093 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/priv/init/omak_01_news.erl" with options [{include_dirs,["/home/omarayad1/Documents/git/omak/include"]}] 
+2014-05-26 18:57:20.148 [info] <0.2.0>@boss_load:load_all_modules:57 Loading application omak
+2014-05-26 18:57:20.149 [info] <0.2.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  omak_view_lib_tags
+2014-05-26 18:57:20.304 [error] emulator Error in process <0.236.0> with exit value: {function_clause,[{mochiweb_util,urlsplit_path,['/',[]],[{file,"src/mochiweb_util.erl"},{line,337}]},{mochiweb_request_bridge,path,1,[{file,"src/mochiweb_bridge_modules/mochiweb_request_bridge.erl"},{line,52}]},{boss_web_test... 
+
+
+2014-05-26 18:59:11.666 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-05-26 18:59:11.705 [info] <0.2.0>@boss_load:load_all_modules:57 Loading application omak
+2014-05-26 18:59:11.718 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/test/functional/register_email_test.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:59:11.784 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/mail/omak_outgoing_mail_controller.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:59:11.800 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/mail/omak_incoming_mail_controller.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:59:11.802 [info] <0.2.0>@boss_controller_compiler:compile:59 Compile controller /home/omarayad1/Documents/git/omak/src/controller/omak_root_controller.erl
+2014-05-26 18:59:11.803 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/controller/omak_root_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:59:11.807 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/view/lib/tag_modules/omak_custom_tags.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:59:11.809 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/view/lib/filter_modules/omak_custom_filters.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:59:11.812 [info] <0.2.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  omak_view_lib_tags
+2014-05-26 18:59:15.724 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-05-26 18:59:15.776 [info] <0.2.0>@boss_load:load_all_modules:57 Loading application omak
+2014-05-26 18:59:15.804 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/test/functional/register_email_test.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:59:15.851 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/mail/omak_outgoing_mail_controller.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:59:15.867 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/mail/omak_incoming_mail_controller.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:59:15.870 [info] <0.2.0>@boss_controller_compiler:compile:59 Compile controller /home/omarayad1/Documents/git/omak/src/controller/omak_root_controller.erl
+2014-05-26 18:59:15.870 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/controller/omak_root_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:59:15.874 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/view/lib/tag_modules/omak_custom_tags.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:59:15.876 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/view/lib/filter_modules/omak_custom_filters.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 18:59:15.878 [info] <0.2.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  omak_view_lib_tags
+2014-05-26 18:59:16.025 [info] <0.7.0> Application omak started on node nonode@nohost
+2014-05-26 18:59:16.025 [info] <0.181.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-26 18:59:16.038 [info] <0.2.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mock options [{adapter,mock}]
+2014-05-26 18:59:16.136 [info] <0.7.0> Application tinymq started on node nonode@nohost
+2014-05-26 18:59:16.136 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/priv/init/omak_01_news.erl" with options [{include_dirs,["/home/omarayad1/Documents/git/omak/include"]}] 
+2014-05-26 18:59:16.176 [info] <0.2.0>@boss_load:load_all_modules:57 Loading application omak
+2014-05-26 18:59:16.178 [info] <0.2.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  omak_view_lib_tags
+2014-05-26 18:59:16.258 [error] emulator Error in process <0.236.0> with exit value: {function_clause,[{mochiweb_util,urlsplit_path,['/',[]],[{file,"src/mochiweb_util.erl"},{line,337}]},{mochiweb_request_bridge,path,1,[{file,"src/mochiweb_bridge_modules/mochiweb_request_bridge.erl"},{line,52}]},{boss_web_test... 
+
+
+2014-05-26 19:02:53.468 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-05-26 19:02:53.510 [info] <0.2.0>@boss_load:load_all_modules:57 Loading application omak
+2014-05-26 19:02:53.523 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/test/functional/register_email_test.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 19:02:53.571 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/mail/omak_outgoing_mail_controller.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 19:02:53.588 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/mail/omak_incoming_mail_controller.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 19:02:53.591 [info] <0.2.0>@boss_controller_compiler:compile:59 Compile controller /home/omarayad1/Documents/git/omak/src/controller/omak_root_controller.erl
+2014-05-26 19:02:53.591 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/controller/omak_root_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 19:02:53.596 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/view/lib/tag_modules/omak_custom_tags.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 19:02:53.598 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/view/lib/filter_modules/omak_custom_filters.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 19:02:53.600 [info] <0.2.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  omak_view_lib_tags
+2014-05-26 19:04:15.297 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-05-26 19:04:15.339 [info] <0.2.0>@boss_load:load_all_modules:57 Loading application omak
+2014-05-26 19:04:15.353 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/test/functional/register_email_test.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 19:04:15.405 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/mail/omak_outgoing_mail_controller.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 19:04:15.432 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/mail/omak_incoming_mail_controller.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 19:04:15.435 [info] <0.2.0>@boss_controller_compiler:compile:59 Compile controller /home/omarayad1/Documents/git/omak/src/controller/omak_root_controller.erl
+2014-05-26 19:04:15.435 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/controller/omak_root_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 19:04:15.439 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/view/lib/tag_modules/omak_custom_tags.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 19:04:15.442 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/view/lib/filter_modules/omak_custom_filters.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 19:04:15.444 [info] <0.2.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  omak_view_lib_tags
+2014-05-26 19:04:18.457 [info] <0.7.0> Application lager started on node nonode@nohost
+2014-05-26 19:04:18.497 [info] <0.2.0>@boss_load:load_all_modules:57 Loading application omak
+2014-05-26 19:04:18.525 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/test/functional/register_email_test.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 19:04:18.577 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/mail/omak_outgoing_mail_controller.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 19:04:18.594 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/mail/omak_incoming_mail_controller.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 19:04:18.596 [info] <0.2.0>@boss_controller_compiler:compile:59 Compile controller /home/omarayad1/Documents/git/omak/src/controller/omak_root_controller.erl
+2014-05-26 19:04:18.596 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/controller/omak_root_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 19:04:18.600 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/view/lib/tag_modules/omak_custom_tags.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 19:04:18.602 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/view/lib/filter_modules/omak_custom_filters.erl" with options [{out_dir,"ebin"},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 19:04:18.604 [info] <0.2.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  omak_view_lib_tags
+2014-05-26 19:04:18.774 [info] <0.7.0> Application omak started on node nonode@nohost
+2014-05-26 19:04:18.775 [info] <0.181.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-26 19:04:18.790 [info] <0.2.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mock options [{adapter,mock}]
+2014-05-26 19:04:18.874 [info] <0.7.0> Application tinymq started on node nonode@nohost
+2014-05-26 19:04:18.874 [notice] <0.2.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/priv/init/omak_01_news.erl" with options [{include_dirs,["/home/omarayad1/Documents/git/omak/include"]}] 
+2014-05-26 19:04:18.912 [info] <0.2.0>@boss_load:load_all_modules:57 Loading application omak
+2014-05-26 19:04:18.914 [info] <0.2.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  omak_view_lib_tags
+2014-05-26 19:04:18.990 [info] <0.181.0>@boss_router_controller:route:171 Boss Route omak "root" "hello" []
+2014-05-26 19:04:18.991 [notice] <0.236.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-26 19:04:18.991 [notice] <0.236.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-26 22:10:29.989 [info] <0.7.0> Application lager started on node 'omak@Omar-Ayad'
+2014-05-26 22:10:29.999 [info] <0.7.0> Application crypto started on node 'omak@Omar-Ayad'
+2014-05-26 22:10:30.052 [info] <0.7.0> Application mimetypes started on node 'omak@Omar-Ayad'
+2014-05-26 22:10:30.110 [notice] <0.63.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2014-05-26 22:10:30.177 [info] <0.95.0> Starting Boss in development mode....
+
+2014-05-26 22:10:30.205 [info] <0.95.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mock options [{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]
+2014-05-26 22:10:30.362 [info] <0.95.0> Starting master services on 'omak@Omar-Ayad'
+
+2014-05-26 22:10:30.404 [info] <0.7.0> Application tinymq started on node 'omak@Omar-Ayad'
+2014-05-26 22:10:30.469 [info] <0.95.0> SSL:[]
+
+2014-05-26 22:10:30.482 [info] <0.95.0> Starting cowboy... on 'omak@Omar-Ayad'
+
+2014-05-26 22:10:30.491 [info] <0.7.0> Application cowlib started on node 'omak@Omar-Ayad'
+2014-05-26 22:10:30.516 [info] <0.7.0> Application ranch started on node 'omak@Omar-Ayad'
+2014-05-26 22:10:30.549 [info] <0.7.0> Application cowboy started on node 'omak@Omar-Ayad'
+2014-05-26 22:10:30.549 [info] <0.95.0> Starting http listener... on 0.0.0.0:8001 
+
+2014-05-26 22:10:30.666 [info] <0.95.0>@boss_load:load_all_modules:57 Loading application omak
+2014-05-26 22:10:30.692 [notice] <0.95.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/test/functional/register_email_test.erl" with options [{out_dir,undefined},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 22:10:30.810 [info] <0.95.0>@boss_controller_compiler:compile:59 Compile controller /home/omarayad1/Documents/git/omak/src/controller/omak_index_controller.erl
+2014-05-26 22:10:30.810 [notice] <0.95.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/controller/omak_index_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 22:10:30.823 [info] <0.95.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  omak_view_lib_tags
+2014-05-26 22:10:30.969 [notice] <0.95.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/priv/init/omak_01_news.erl" with options [{include_dirs,["/home/omarayad1/Documents/git/omak/include"]}] 
+2014-05-26 22:10:41.043 [notice] <0.272.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-26 22:10:41.049 [warning] <0.6.0> lager_error_logger_h dropped 33 messages in the last second that exceeded the limit of 50 messages/sec
+2014-05-26 22:10:41.049 [info] <0.263.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-26 22:10:41.050 [info] <0.263.0>@boss_router_controller:route:171 Boss Route omak "index" "index" []
+2014-05-26 22:10:41.073 [error] <0.263.0> gen_server <0.263.0> terminated with reason: {'module could not be loaded',[{omak_index_controller,module_info,[exports],[]},{boss_controller_lib,convert_params_to_tokens,3,[{file,"src/boss/boss_controller_lib.erl"},{line,5}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,173}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-05-26 22:10:41.073 [error] <0.263.0> CRASH REPORT Process <0.263.0> with 0 neighbours exited with reason: call to undefined function omak_index_controller:module_info(exports) in gen_server:terminate/6 line 746
+2014-05-26 22:10:41.074 [error] <0.262.0> Supervisor {<0.262.0>,boss_router_sup} had child router_controller started with boss_router_controller:start_link([{application,omak},{controllers,["omak_index_controller"]}]) at <0.263.0> exit with reason call to undefined function omak_index_controller:module_info(exports) in context child_terminated
+2014-05-26 22:10:41.074 [error] <0.272.0>@boss_web_controller_handle_request:handle_request:30 Unhandled Error: exit:{{undef,[{omak_index_controller,module_info,[exports],[]},{boss_controller_lib,convert_params_to_tokens,3,[{file,"src/boss/boss_controller_lib.erl"},{line,5}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,173}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[<0.263.0>,{route,"/"}]}}. Stacktrace: [{gen_server,call,2,[{file,"gen_server.erl"},{line,182}]},{boss_web_controller_handle_request,process_dynamic_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,237}]},{boss_web_controller_handle_request,process_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,228}]},{boss_web_controller_handle_request,set_timer,7,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,148}]},{boss_web_controller_handle_request,build_dynamic_response,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,122}]},{boss_web_controller_handle_request,handle_request,3,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,26}]},{mochicow_upgrade,upgrade,4,[{file,"src/mochicow_upgrade.erl"},{line,72}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]
+2014-05-26 22:10:41.132 [info] <0.275.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-26 22:10:53.415 [notice] <0.277.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-26 22:10:53.416 [info] <0.275.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-26 22:10:53.418 [info] <0.275.0>@boss_router_controller:route:171 Boss Route omak "index" "index" []
+2014-05-26 22:10:53.431 [error] <0.275.0> gen_server <0.275.0> terminated with reason: {'module could not be loaded',[{omak_index_controller,module_info,[exports],[]},{boss_controller_lib,convert_params_to_tokens,3,[{file,"src/boss/boss_controller_lib.erl"},{line,5}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,173}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]}
+2014-05-26 22:10:53.431 [error] <0.275.0> CRASH REPORT Process <0.275.0> with 0 neighbours exited with reason: call to undefined function omak_index_controller:module_info(exports) in gen_server:terminate/6 line 746
+2014-05-26 22:10:53.431 [error] <0.262.0> Supervisor {<0.262.0>,boss_router_sup} had child router_controller started with boss_router_controller:start_link([{application,omak},{controllers,["omak_index_controller"]}]) at <0.275.0> exit with reason call to undefined function omak_index_controller:module_info(exports) in context child_terminated
+2014-05-26 22:10:53.431 [error] <0.277.0>@boss_web_controller_handle_request:handle_request:30 Unhandled Error: exit:{{undef,[{omak_index_controller,module_info,[exports],[]},{boss_controller_lib,convert_params_to_tokens,3,[{file,"src/boss/boss_controller_lib.erl"},{line,5}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,173}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,64}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,580}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,239}]}]},{gen_server,call,[<0.275.0>,{route,"/"}]}}. Stacktrace: [{gen_server,call,2,[{file,"gen_server.erl"},{line,182}]},{boss_web_controller_handle_request,process_dynamic_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,237}]},{boss_web_controller_handle_request,process_request,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,228}]},{boss_web_controller_handle_request,set_timer,7,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,148}]},{boss_web_controller_handle_request,build_dynamic_response,4,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,122}]},{boss_web_controller_handle_request,handle_request,3,[{file,"src/boss/boss_web_controller_handle_request.erl"},{line,26}]},{mochicow_upgrade,upgrade,4,[{file,"src/mochicow_upgrade.erl"},{line,72}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,529}]}]
+2014-05-26 22:10:53.501 [info] <0.279.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-26 22:14:09.754 [info] <0.7.0> Application lager started on node 'omak@Omar-Ayad'
+2014-05-26 22:14:09.766 [info] <0.7.0> Application crypto started on node 'omak@Omar-Ayad'
+2014-05-26 22:14:09.801 [info] <0.7.0> Application mimetypes started on node 'omak@Omar-Ayad'
+2014-05-26 22:14:09.869 [notice] <0.63.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2014-05-26 22:14:09.904 [info] <0.95.0> Starting Boss in development mode....
+
+2014-05-26 22:14:09.919 [info] <0.95.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mock options [{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]
+2014-05-26 22:14:10.037 [info] <0.95.0> Starting master services on 'omak@Omar-Ayad'
+
+2014-05-26 22:14:10.058 [info] <0.7.0> Application tinymq started on node 'omak@Omar-Ayad'
+2014-05-26 22:14:10.099 [info] <0.95.0> SSL:[]
+
+2014-05-26 22:14:10.103 [info] <0.95.0> Starting cowboy... on 'omak@Omar-Ayad'
+
+2014-05-26 22:14:10.111 [info] <0.7.0> Application cowlib started on node 'omak@Omar-Ayad'
+2014-05-26 22:14:10.123 [info] <0.7.0> Application ranch started on node 'omak@Omar-Ayad'
+2014-05-26 22:14:10.142 [info] <0.7.0> Application cowboy started on node 'omak@Omar-Ayad'
+2014-05-26 22:14:10.142 [info] <0.95.0> Starting http listener... on 0.0.0.0:8001 
+
+2014-05-26 22:14:10.247 [info] <0.95.0>@boss_load:load_all_modules:57 Loading application omak
+2014-05-26 22:14:10.262 [notice] <0.95.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/test/functional/register_email_test.erl" with options [{out_dir,undefined},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 22:14:10.362 [info] <0.95.0>@boss_controller_compiler:compile:59 Compile controller /home/omarayad1/Documents/git/omak/src/controller/omak_index_controller.erl
+2014-05-26 22:14:10.362 [notice] <0.95.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/controller/omak_index_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 22:14:10.375 [info] <0.95.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  omak_view_lib_tags
+2014-05-26 22:14:10.546 [notice] <0.95.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/priv/init/omak_01_news.erl" with options [{include_dirs,["/home/omarayad1/Documents/git/omak/include"]}] 
+2014-05-26 22:14:15.687 [notice] <0.272.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-26 22:14:15.690 [warning] <0.6.0> lager_error_logger_h dropped 33 messages in the last second that exceeded the limit of 50 messages/sec
+2014-05-26 22:14:15.690 [info] <0.263.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-26 22:14:15.691 [info] <0.263.0>@boss_router_controller:route:171 Boss Route omak "index" "index" []
+2014-05-26 22:14:15.722 [notice] <0.272.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-26 22:14:15.722 [notice] <0.272.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-26 22:14:15.729 [info] <0.272.0> GET / [omak] 200 0ms
+2014-05-26 22:55:03.181 [info] <0.7.0> Application lager started on node 'omak@Omar-Ayad'
+2014-05-26 22:55:03.192 [info] <0.7.0> Application crypto started on node 'omak@Omar-Ayad'
+2014-05-26 22:55:03.243 [info] <0.7.0> Application mimetypes started on node 'omak@Omar-Ayad'
+2014-05-26 22:55:03.263 [notice] <0.63.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2014-05-26 22:55:03.335 [info] <0.95.0> Starting Boss in development mode....
+
+2014-05-26 22:55:03.358 [info] <0.95.0>@boss_db:start:72 Start Database Adapter boss_db_adapter_mock options [{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]
+2014-05-26 22:55:03.501 [info] <0.95.0> Starting master services on 'omak@Omar-Ayad'
+
+2014-05-26 22:55:03.542 [info] <0.7.0> Application tinymq started on node 'omak@Omar-Ayad'
+2014-05-26 22:55:03.686 [info] <0.95.0> SSL:[]
+
+2014-05-26 22:55:03.691 [info] <0.95.0> Starting cowboy... on 'omak@Omar-Ayad'
+
+2014-05-26 22:55:03.695 [info] <0.7.0> Application cowlib started on node 'omak@Omar-Ayad'
+2014-05-26 22:55:03.718 [info] <0.7.0> Application ranch started on node 'omak@Omar-Ayad'
+2014-05-26 22:55:03.768 [info] <0.7.0> Application cowboy started on node 'omak@Omar-Ayad'
+2014-05-26 22:55:03.768 [info] <0.95.0> Starting http listener... on 0.0.0.0:8001 
+
+2014-05-26 22:55:03.926 [info] <0.95.0>@boss_load:load_all_modules:57 Loading application omak
+2014-05-26 22:55:03.970 [notice] <0.95.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/test/functional/register_email_test.erl" with options [{out_dir,undefined},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 22:55:04.123 [info] <0.95.0>@boss_controller_compiler:compile:59 Compile controller /home/omarayad1/Documents/git/omak/src/controller/omak_index_controller.erl
+2014-05-26 22:55:04.123 [notice] <0.95.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/controller/omak_index_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 22:55:04.163 [info] <0.95.0>@boss_load:compile_view_dir_erlydtl:311 Compile Modules "src/view/lib/tag_html"  omak_view_lib_tags
+2014-05-26 22:55:04.485 [notice] <0.95.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/priv/init/omak_01_news.erl" with options [{include_dirs,["/home/omarayad1/Documents/git/omak/include"]}] 
+2014-05-26 22:55:11.108 [notice] <0.272.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-26 22:55:11.119 [warning] <0.6.0> lager_error_logger_h dropped 33 messages in the last second that exceeded the limit of 50 messages/sec
+2014-05-26 22:55:11.119 [info] <0.263.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-26 22:55:11.124 [info] <0.263.0>@boss_router_controller:route:171 Boss Route omak "index" "index" []
+2014-05-26 22:55:11.171 [notice] <0.272.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-26 22:55:11.171 [notice] <0.272.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-26 22:55:11.204 [info] <0.272.0> GET / [omak] 200 0ms
+2014-05-26 23:09:17.024 [notice] <0.280.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-26 23:09:17.025 [info] <0.263.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-26 23:09:17.026 [info] <0.263.0>@boss_router_controller:route:171 Boss Route omak "index" "index" []
+2014-05-26 23:09:17.030 [info] <0.280.0>@boss_controller_compiler:compile:59 Compile controller /home/omarayad1/Documents/git/omak/src/controller/omak_index_controller.erl
+2014-05-26 23:09:17.030 [notice] <0.280.0>@boss_compiler:compile:47 Compile file "/home/omarayad1/Documents/git/omak/src/controller/omak_index_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/home/omarayad1/Documents/git/omak/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2014-05-26 23:09:17.039 [notice] <0.280.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-26 23:09:17.039 [notice] <0.280.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-26 23:09:17.042 [info] <0.280.0> GET / [omak] 200 0ms
+2014-05-26 23:29:59.711 [notice] <0.299.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-26 23:29:59.712 [info] <0.263.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-26 23:29:59.713 [info] <0.263.0>@boss_router_controller:route:171 Boss Route omak "index" "index" []
+2014-05-26 23:29:59.720 [notice] <0.299.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-26 23:29:59.720 [notice] <0.299.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-26 23:29:59.723 [info] <0.299.0> GET / [omak] 200 0ms
+2014-05-26 23:30:38.529 [notice] <0.307.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-26 23:30:38.530 [info] <0.263.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-26 23:30:38.532 [info] <0.263.0>@boss_router_controller:route:171 Boss Route omak "index" "index" []
+2014-05-26 23:30:38.540 [notice] <0.307.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-26 23:30:38.540 [notice] <0.307.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-26 23:30:38.563 [info] <0.307.0> GET / [omak] 200 0ms
+2014-05-26 23:31:52.458 [notice] <0.315.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-26 23:31:52.459 [info] <0.263.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-26 23:31:52.464 [info] <0.263.0>@boss_router_controller:route:171 Boss Route omak "index" "index" []
+2014-05-26 23:31:52.474 [notice] <0.315.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-26 23:31:52.474 [notice] <0.315.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-26 23:31:52.513 [info] <0.315.0> GET / [omak] 200 0ms
+2014-05-26 23:32:30.026 [notice] <0.330.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-26 23:32:30.026 [info] <0.263.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-26 23:32:30.027 [info] <0.263.0>@boss_router_controller:route:171 Boss Route omak "index" "index" []
+2014-05-26 23:32:30.034 [notice] <0.330.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-26 23:32:30.034 [notice] <0.330.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-26 23:32:30.056 [info] <0.330.0> GET / [omak] 200 0ms
+2014-05-26 23:33:24.973 [notice] <0.339.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-26 23:33:24.976 [info] <0.263.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-26 23:33:24.979 [info] <0.263.0>@boss_router_controller:route:171 Boss Route omak "index" "index" []
+2014-05-26 23:33:24.983 [notice] <0.339.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-26 23:33:24.983 [notice] <0.339.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-26 23:33:25.001 [info] <0.339.0> GET / [omak] 200 0ms
+2014-05-26 23:33:48.776 [notice] <0.348.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-26 23:33:48.777 [info] <0.263.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-26 23:33:48.779 [info] <0.263.0>@boss_router_controller:route:171 Boss Route omak "index" "index" []
+2014-05-26 23:33:48.786 [notice] <0.348.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-26 23:33:48.786 [notice] <0.348.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-26 23:33:48.792 [info] <0.348.0> GET / [omak] 200 0ms

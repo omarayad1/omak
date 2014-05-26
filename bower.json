@@ -27,6 +27,8 @@
   "dependencies": {
     "backbone": "~1.1.2",
     "jquery": "~2.1.1",
-    "uikit": "~2.6.0"
+    "uikit": "~2.6.0",
+    "trianglify": "~0.1.2",
+    "d3": "~3.4.8"
   }
 }
