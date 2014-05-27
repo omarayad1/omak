@@ -19,7 +19,8 @@ module.exports = (grunt) ->
 						'priv/src/vendor/trianglify.min.js', 
 						'priv/src/vendor/underscore.min.js',
 						'priv/src/vendor/backbone.min.js',
-						'priv/static/js/coffee-compile.js'
+						'priv/static/js/coffee-compile.js',
+						'priv/src/vendor/*.js'
 					]
 		)
 

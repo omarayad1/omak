@@ -1160,3 +1160,213 @@
 2014-05-27 17:01:44.412 [notice] <0.998.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
 2014-05-27 17:01:44.412 [notice] <0.998.0>@boss_controller_adapter_pmod:action:92 Tokens []
 2014-05-27 17:01:44.453 [info] <0.998.0> GET / [omak] 200 0ms
+2014-05-27 17:36:52.012 [notice] <0.1005.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-27 17:36:52.012 [info] <0.263.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-27 17:36:52.024 [info] <0.263.0>@boss_router_controller:route:171 Boss Route omak "index" "index" []
+2014-05-27 17:36:52.028 [notice] <0.1005.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 17:36:52.028 [notice] <0.1005.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 17:36:52.073 [info] <0.1005.0> GET / [omak] 200 0ms
+2014-05-27 17:37:36.116 [notice] <0.1012.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-27 17:37:36.117 [info] <0.263.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-27 17:37:36.119 [info] <0.263.0>@boss_router_controller:route:171 Boss Route omak "index" "index" []
+2014-05-27 17:37:36.122 [notice] <0.1012.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 17:37:36.122 [notice] <0.1012.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 17:37:36.172 [info] <0.1012.0> GET / [omak] 200 0ms
+2014-05-27 17:38:25.885 [notice] <0.1021.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-27 17:38:25.886 [info] <0.263.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-27 17:38:25.898 [info] <0.263.0>@boss_router_controller:route:171 Boss Route omak "index" "index" []
+2014-05-27 17:38:25.901 [notice] <0.1021.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 17:38:25.901 [notice] <0.1021.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 17:38:25.955 [info] <0.1021.0> GET / [omak] 200 0ms
+2014-05-27 17:40:17.132 [notice] <0.1026.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-27 17:40:17.134 [info] <0.263.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-27 17:40:17.135 [info] <0.263.0>@boss_router_controller:route:171 Boss Route omak "index" "index" []
+2014-05-27 17:40:17.137 [notice] <0.1026.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 17:40:17.137 [notice] <0.1026.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 17:40:17.160 [info] <0.1026.0> GET / [omak] 200 0ms
+2014-05-27 17:41:35.214 [notice] <0.1033.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-27 17:41:35.215 [info] <0.263.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-27 17:41:35.216 [info] <0.263.0>@boss_router_controller:route:171 Boss Route omak "index" "index" []
+2014-05-27 17:41:35.218 [notice] <0.1033.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 17:41:35.218 [notice] <0.1033.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 17:41:35.238 [info] <0.1033.0> GET / [omak] 200 0ms
+2014-05-27 17:44:33.475 [notice] <0.1040.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-27 17:44:33.477 [info] <0.263.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-27 17:44:33.479 [info] <0.263.0>@boss_router_controller:route:171 Boss Route omak "index" "index" []
+2014-05-27 17:44:33.486 [notice] <0.1040.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 17:44:33.486 [notice] <0.1040.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 17:44:33.514 [info] <0.1040.0> GET / [omak] 200 0ms
+2014-05-27 17:45:50.292 [notice] <0.1047.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-27 17:45:50.296 [info] <0.263.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-27 17:45:50.299 [info] <0.263.0>@boss_router_controller:route:171 Boss Route omak "index" "index" []
+2014-05-27 17:45:50.303 [notice] <0.1047.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 17:45:50.303 [notice] <0.1047.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 17:45:50.333 [info] <0.1047.0> GET / [omak] 200 0ms
+2014-05-27 17:46:08.168 [notice] <0.1054.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-27 17:46:08.170 [info] <0.263.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-27 17:46:08.171 [info] <0.263.0>@boss_router_controller:route:171 Boss Route omak "index" "index" []
+2014-05-27 17:46:08.178 [notice] <0.1054.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 17:46:08.178 [notice] <0.1054.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 17:46:08.243 [info] <0.1054.0> GET / [omak] 200 0ms
+2014-05-27 17:48:29.047 [notice] <0.1061.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-27 17:48:29.048 [info] <0.263.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-27 17:48:29.049 [info] <0.263.0>@boss_router_controller:route:171 Boss Route omak "index" "index" []
+2014-05-27 17:48:29.054 [notice] <0.1061.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 17:48:29.054 [notice] <0.1061.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 17:48:29.075 [info] <0.1061.0> GET / [omak] 200 0ms
+2014-05-27 17:48:36.248 [notice] <0.1068.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-27 17:48:36.249 [info] <0.263.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-27 17:48:36.250 [info] <0.263.0>@boss_router_controller:route:171 Boss Route omak "index" "index" []
+2014-05-27 17:48:36.256 [notice] <0.1068.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 17:48:36.256 [notice] <0.1068.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 17:48:36.260 [info] <0.1068.0> GET / [omak] 200 0ms
+2014-05-27 17:49:46.875 [notice] <0.1074.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-27 17:49:46.876 [info] <0.263.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-27 17:49:46.877 [info] <0.263.0>@boss_router_controller:route:171 Boss Route omak "index" "index" []
+2014-05-27 17:49:46.882 [notice] <0.1074.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 17:49:46.882 [notice] <0.1074.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 17:49:46.884 [info] <0.1074.0> GET / [omak] 200 0ms
+2014-05-27 17:52:10.420 [notice] <0.1080.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-27 17:52:10.421 [info] <0.263.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-27 17:52:10.422 [info] <0.263.0>@boss_router_controller:route:171 Boss Route omak "index" "index" []
+2014-05-27 17:52:10.430 [notice] <0.1080.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 17:52:10.431 [notice] <0.1080.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 17:52:10.452 [info] <0.1080.0> GET / [omak] 200 0ms
+2014-05-27 17:55:19.168 [notice] <0.1087.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-27 17:55:19.169 [info] <0.263.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-27 17:55:19.170 [info] <0.263.0>@boss_router_controller:route:171 Boss Route omak "index" "index" []
+2014-05-27 17:55:19.179 [notice] <0.1087.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 17:55:19.179 [notice] <0.1087.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 17:55:19.210 [info] <0.1087.0> GET / [omak] 200 0ms
+2014-05-27 17:55:41.168 [notice] <0.1094.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-27 17:55:41.168 [info] <0.263.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-27 17:55:41.169 [info] <0.263.0>@boss_router_controller:route:171 Boss Route omak "index" "index" []
+2014-05-27 17:55:41.173 [notice] <0.1094.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 17:55:41.173 [notice] <0.1094.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 17:55:41.179 [info] <0.1094.0> GET / [omak] 200 0ms
+2014-05-27 17:57:16.109 [notice] <0.1100.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-27 17:57:16.111 [info] <0.263.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-27 17:57:16.113 [info] <0.263.0>@boss_router_controller:route:171 Boss Route omak "index" "index" []
+2014-05-27 17:57:16.121 [notice] <0.1100.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 17:57:16.121 [notice] <0.1100.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 17:57:16.125 [info] <0.1100.0> GET / [omak] 200 0ms
+2014-05-27 17:57:22.109 [notice] <0.1106.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-27 17:57:22.109 [info] <0.263.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-27 17:57:22.110 [info] <0.263.0>@boss_router_controller:route:171 Boss Route omak "index" "index" []
+2014-05-27 17:57:22.114 [notice] <0.1106.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 17:57:22.114 [notice] <0.1106.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 17:57:22.117 [info] <0.1106.0> GET / [omak] 200 0ms
+2014-05-27 17:59:21.380 [notice] <0.1117.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-27 17:59:21.381 [info] <0.263.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-27 17:59:21.383 [info] <0.263.0>@boss_router_controller:route:171 Boss Route omak "index" "index" []
+2014-05-27 17:59:21.389 [notice] <0.1117.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 17:59:21.389 [notice] <0.1117.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 17:59:21.392 [info] <0.1117.0> GET / [omak] 200 0ms
+2014-05-27 18:00:51.357 [notice] <0.1123.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-27 18:00:51.357 [info] <0.263.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-27 18:00:51.362 [info] <0.263.0>@boss_router_controller:route:171 Boss Route omak "index" "index" []
+2014-05-27 18:00:51.367 [notice] <0.1123.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 18:00:51.367 [notice] <0.1123.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 18:00:51.404 [info] <0.1123.0> GET / [omak] 200 0ms
+2014-05-27 18:01:23.156 [notice] <0.1130.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-27 18:01:23.158 [info] <0.263.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-27 18:01:23.160 [info] <0.263.0>@boss_router_controller:route:171 Boss Route omak "index" "index" []
+2014-05-27 18:01:23.166 [notice] <0.1130.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 18:01:23.168 [notice] <0.1130.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 18:01:23.220 [info] <0.1130.0> GET / [omak] 200 0ms
+2014-05-27 18:01:34.344 [notice] <0.1137.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-27 18:01:34.345 [info] <0.263.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-27 18:01:34.346 [info] <0.263.0>@boss_router_controller:route:171 Boss Route omak "index" "index" []
+2014-05-27 18:01:34.351 [notice] <0.1137.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 18:01:34.351 [notice] <0.1137.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 18:01:34.386 [info] <0.1137.0> GET / [omak] 200 0ms
+2014-05-27 18:03:46.203 [notice] <0.1144.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-27 18:03:46.204 [info] <0.263.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-27 18:03:46.206 [info] <0.263.0>@boss_router_controller:route:171 Boss Route omak "index" "index" []
+2014-05-27 18:03:46.214 [notice] <0.1144.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 18:03:46.214 [notice] <0.1144.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 18:03:46.242 [info] <0.1144.0> GET / [omak] 200 0ms
+2014-05-27 18:04:21.993 [notice] <0.1151.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-27 18:04:21.995 [info] <0.263.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-27 18:04:21.996 [info] <0.263.0>@boss_router_controller:route:171 Boss Route omak "index" "index" []
+2014-05-27 18:04:22.030 [notice] <0.1151.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 18:04:22.030 [notice] <0.1151.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 18:04:22.034 [info] <0.1151.0> GET / [omak] 200 0ms
+2014-05-27 18:04:45.943 [notice] <0.1158.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-27 18:04:45.944 [info] <0.263.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-27 18:04:45.945 [info] <0.263.0>@boss_router_controller:route:171 Boss Route omak "index" "index" []
+2014-05-27 18:04:45.975 [notice] <0.1158.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 18:04:45.975 [notice] <0.1158.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 18:04:45.980 [info] <0.1158.0> GET / [omak] 200 0ms
+2014-05-27 18:08:16.634 [notice] <0.1163.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-27 18:08:16.635 [info] <0.263.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-27 18:08:16.636 [info] <0.263.0>@boss_router_controller:route:171 Boss Route omak "index" "index" []
+2014-05-27 18:08:16.643 [notice] <0.1163.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 18:08:16.643 [notice] <0.1163.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 18:08:16.708 [info] <0.1163.0> GET / [omak] 200 0ms
+2014-05-27 18:09:08.881 [notice] <0.1170.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-27 18:09:08.882 [info] <0.263.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-27 18:09:08.885 [info] <0.263.0>@boss_router_controller:route:171 Boss Route omak "index" "index" []
+2014-05-27 18:09:08.892 [notice] <0.1170.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 18:09:08.892 [notice] <0.1170.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 18:09:08.919 [info] <0.1170.0> GET / [omak] 200 0ms
+2014-05-27 18:09:41.533 [notice] <0.1179.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-27 18:09:41.534 [info] <0.263.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-27 18:09:41.544 [info] <0.263.0>@boss_router_controller:route:171 Boss Route omak "index" "index" []
+2014-05-27 18:09:41.547 [notice] <0.1179.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 18:09:41.547 [notice] <0.1179.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 18:09:41.549 [info] <0.1179.0> GET / [omak] 200 0ms
+2014-05-27 18:10:01.356 [notice] <0.1184.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-27 18:10:01.357 [info] <0.263.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-27 18:10:01.359 [info] <0.263.0>@boss_router_controller:route:171 Boss Route omak "index" "index" []
+2014-05-27 18:10:01.368 [notice] <0.1184.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 18:10:01.368 [notice] <0.1184.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 18:10:01.374 [info] <0.1184.0> GET / [omak] 200 0ms
+2014-05-27 18:10:16.020 [notice] <0.1189.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-27 18:10:16.022 [info] <0.263.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-27 18:10:16.023 [info] <0.263.0>@boss_router_controller:route:171 Boss Route omak "index" "index" []
+2014-05-27 18:10:16.032 [notice] <0.1189.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 18:10:16.033 [notice] <0.1189.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 18:10:16.036 [info] <0.1189.0> GET / [omak] 200 0ms
+2014-05-27 18:11:23.908 [notice] <0.1195.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-27 18:11:23.909 [info] <0.263.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-27 18:11:23.910 [info] <0.263.0>@boss_router_controller:route:171 Boss Route omak "index" "index" []
+2014-05-27 18:11:23.917 [notice] <0.1195.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 18:11:23.917 [notice] <0.1195.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 18:11:23.954 [info] <0.1195.0> GET / [omak] 200 0ms
+2014-05-27 18:12:38.857 [notice] <0.1202.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-27 18:12:38.858 [info] <0.263.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-27 18:12:38.885 [info] <0.263.0>@boss_router_controller:route:171 Boss Route omak "index" "index" []
+2014-05-27 18:12:38.890 [notice] <0.1202.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 18:12:38.890 [notice] <0.1202.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 18:12:38.913 [info] <0.1202.0> GET / [omak] 200 0ms
+2014-05-27 18:14:04.052 [notice] <0.1209.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-27 18:14:04.053 [info] <0.263.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-27 18:14:04.054 [info] <0.263.0>@boss_router_controller:route:171 Boss Route omak "index" "index" []
+2014-05-27 18:14:04.064 [notice] <0.1209.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 18:14:04.064 [notice] <0.1209.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 18:14:04.067 [info] <0.1209.0> GET / [omak] 200 0ms
+2014-05-27 18:14:29.155 [notice] <0.1215.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-27 18:14:29.156 [info] <0.263.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-27 18:14:29.157 [info] <0.263.0>@boss_router_controller:route:171 Boss Route omak "index" "index" []
+2014-05-27 18:14:29.161 [notice] <0.1215.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 18:14:29.161 [notice] <0.1215.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 18:14:29.164 [info] <0.1215.0> GET / [omak] 200 0ms
+2014-05-27 18:15:01.446 [notice] <0.1221.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-27 18:15:01.447 [info] <0.263.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-27 18:15:01.450 [info] <0.263.0>@boss_router_controller:route:171 Boss Route omak "index" "index" []
+2014-05-27 18:15:01.453 [notice] <0.1221.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 18:15:01.453 [notice] <0.1221.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 18:15:01.457 [info] <0.1221.0> GET / [omak] 200 0ms
+2014-05-27 18:15:29.703 [notice] <0.1227.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-27 18:15:29.704 [info] <0.263.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-27 18:15:29.708 [info] <0.263.0>@boss_router_controller:route:171 Boss Route omak "index" "index" []
+2014-05-27 18:15:29.717 [notice] <0.1227.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 18:15:29.717 [notice] <0.1227.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 18:15:29.726 [info] <0.1227.0> GET / [omak] 200 0ms
+2014-05-27 18:16:08.149 [notice] <0.1233.0>@boss_web_controller_handle_request:handle_request:23 ApplicationForPath omak
+2014-05-27 18:16:08.151 [info] <0.263.0> Loading routes from "/home/omarayad1/Documents/git/omak/priv/omak.routes" ....
+2014-05-27 18:16:08.153 [info] <0.263.0>@boss_router_controller:route:171 Boss Route omak "index" "index" []
+2014-05-27 18:16:08.162 [notice] <0.1233.0>@boss_controller_adapter_pmod:action:91 Request Method 'GET'
+2014-05-27 18:16:08.162 [notice] <0.1233.0>@boss_controller_adapter_pmod:action:92 Tokens []
+2014-05-27 18:16:08.166 [info] <0.1233.0> GET / [omak] 200 0ms

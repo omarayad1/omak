@@ -44,3 +44,19 @@ p {
 	font-weight: 200;
 	color: #111;
 }
+.submit-email-form input{
+	width:80%;
+}
+.navigation-main {
+	margin-top: 1.6%;
+	margin-left: 3%;
+}
+.navigation-main li a {
+	color: #333;
+	font-family: Raleway;
+	font-weight: 200;
+}
+.navigation-main li a:hover {
+	color: #eee;
+	text-decoration: none;
+}
