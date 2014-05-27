@@ -10,15 +10,10 @@
       pattern = t.generate($(window).width(), $(window).height());
       $('#container').hide();
       $('#container').css('background-image', pattern.dataUrl);
-      return $('#container').fadeIn(2000);
+      return $('#container').fadeIn(3000);
     })
   };
 
   Omak.init();
-
-}).call(this);
-
-(function() {
-
 
 }).call(this);

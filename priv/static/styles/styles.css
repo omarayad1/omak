@@ -6,3 +6,41 @@ html, body {
 	height: 100%;
 	width: 100%;
 }
+#container-outline {
+	box-sizing:border-box;
+  	-moz-box-sizing:border-box;
+  	-webkit-box-sizing:border-box;
+	border-style: solid;
+	border-color: #fff;
+	border-width: 10px;
+	height: 100%;
+	width: 100%;
+}
+.content-container {
+	margin-top: 10%;
+}
+h1, h3, h4 {
+	text-align: center;
+}
+h1 {
+	font-family: Raleway;
+	font-weight: 900;
+	font-size: 7em;
+	padding-top:10%;
+}
+h3 {
+	font-family: Raleway;
+	font-weight: 200;
+	font-size: 2.1em;
+}
+h4 {
+	font-family: Raleway;
+	font-weight: 100;
+	font-size: 1.5em;
+	margin-top: -1%;
+}
+p {
+	font-family: Raleway;
+	font-weight: 200;
+	color: #111;
+}

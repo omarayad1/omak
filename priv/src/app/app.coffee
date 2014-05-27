@@ -1,4 +1,4 @@
-window.Omak = {
+window.Omak =
 	Models: {}
 	Collections: {}
 	Controllers: {}
@@ -8,7 +8,6 @@ window.Omak = {
 		pattern = t.generate $(window).width(), $(window).height()
 		$('#container').hide()
 		$('#container').css 'background-image', pattern.dataUrl
-		$('#container').fadeIn 2000
-}
+		$('#container').fadeIn 3000
 
 Omak.init()

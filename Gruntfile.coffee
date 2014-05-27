@@ -4,10 +4,11 @@ module.exports = (grunt) ->
 	grunt.loadNpmTasks 'grunt-contrib-uglify'
 
 	grunt.initConfig(
+		pkg: grunt.file.readJSON 'package.json'
 		coffee:
 			compile:
 				files:
-					'priv/static/js/coffee-compile.js': ['priv/src/app/*.coffee','priv/src/app/views/*.coffee']
+					'priv/static/js/coffee-compile.js': ['priv/src/app/*.coffee']
 
 		uglify:
 			my_target:
