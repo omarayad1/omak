@@ -8,9 +8,11 @@ module.exports = (grunt) ->
 		coffee:
 			compile:
 				files:
-					'priv/static/js/coffee-compile.js': ['priv/src/app/*.coffee']
+					'priv/static/js/coffee-compile.js': ['priv/src/app/*.coffee', 'priv/src/app/views/*.coffee', 'priv/src/app/router/*.coffee']
 
 		uglify:
+			options:
+				beautify: true
 			my_target:
 				files:
 					'priv/static/js/script.min.js': [
