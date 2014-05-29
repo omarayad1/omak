@@ -12,7 +12,7 @@ module.exports = (grunt) ->
 
 		uglify:
 			options:
-				beautify: true
+				beautify: false
 			my_target:
 				files:
 					'priv/static/js/script.min.js': [
