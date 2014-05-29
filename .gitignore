@@ -38,3 +38,4 @@ node_modules
 *.plt
 deps
 erl_crash.dump
+log

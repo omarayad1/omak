@@ -15,7 +15,7 @@
 
 % Front page
 {"/", [{controller, "index"}, {action, "index"}]}.
-
+{"/submit/email", [{controller, "submit"},{action, "email"}]}.
 % 404 File Not Found handler
 % {404, [{controller, "world"}, {action, "lost"}]}.
 

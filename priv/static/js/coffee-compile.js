@@ -24,6 +24,18 @@
     el: $('#content'),
     tagName: 'div',
     className: 'omak-home',
+    events: {
+      'click button.submit-email': 'submitEmail'
+    },
+    submitEmail: function() {
+      var aucEmail;
+      aucEmail = this.$el.find('.email-text').val();
+      return $.post('/submit/email', {
+        'email': aucEmail
+      }, function(response) {
+        return console.log(response);
+      });
+    },
     render: function() {
       var compiledTemplate;
       compiledTemplate = _.template($('#home').html());
@@ -55,7 +67,6 @@
 
   omakRouter.on('route:home', function() {
     var viewOfHome;
-    console.log('batee5');
     viewOfHome = new Omak.Views.homeView;
     viewOfHome.setElement('#content');
     return viewOfHome.render();

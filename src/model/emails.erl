@@ -1,0 +1,2 @@
+-module(emails, [Id, Email]).
+-compile(export_all).
