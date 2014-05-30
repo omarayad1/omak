@@ -25,7 +25,8 @@
     tagName: 'div',
     className: 'omak-home',
     events: {
-      'click button.submit-email': 'submitEmail'
+      'click button.submit-email': 'submitEmail',
+      'keyup input.email-text': 'validateEmail'
     },
     submitEmail: function() {
       var aucEmail;
@@ -33,8 +34,31 @@
       return $.post('/submit/email', {
         'email': aucEmail
       }, function(response) {
-        return console.log(response);
+        if (response.success) {
+          return $.UIkit.notify({
+            message: 'Great! We sent you an email to validate your email',
+            status: 'success',
+            timout: 3000
+          });
+        } else if (!response.success) {
+          return $.UIkit.notify({
+            message: 'We sense you trying to play our systems',
+            status: 'warning',
+            timout: 3000
+          });
+        }
       });
+    },
+    validateEmail: function() {
+      var enteredEmail;
+      enteredEmail = this.$el.find('.email-text').val();
+      if (enteredEmail.indexOf('@aucegypt.edu') > 0) {
+        this.$el.find('.submit-email').removeAttr('disabled');
+        return this.$el.find('#email-valid-notify').html('<div class="uk-alert uk-alert-success" data-uk-alert><a href="" class="uk-alert-close uk-close"></a><p>Your Email is a Valid @AUC mail you may now submit</p></div>');
+      } else {
+        this.$el.find('.submit-email').attr('disabled', 'disabled');
+        return this.$el.find('#email-valid-notify').html('<div class="uk-alert uk-alert-danger" data-uk-alert><a href="" class="uk-alert-close uk-close"></a><p>Your Email is not a Valid @AUC mail</p></div>');
+      }
     },
     render: function() {
       var compiledTemplate;

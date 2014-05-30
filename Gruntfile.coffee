@@ -13,6 +13,7 @@ module.exports = (grunt) ->
 		uglify:
 			options:
 				beautify: false
+				mangle: false
 			my_target:
 				files:
 					'priv/static/js/script.min.js': [
@@ -21,8 +22,10 @@ module.exports = (grunt) ->
 						'priv/src/vendor/trianglify.min.js', 
 						'priv/src/vendor/underscore.min.js',
 						'priv/src/vendor/backbone.min.js',
-						'priv/static/js/coffee-compile.js',
-						'priv/src/vendor/*.js'
+						'priv/src/vendor/uikit.min.js',
+						'priv/src/vendor/*.js',
+						'priv/static/js/coffee-compile.js'
+						
 					]
 		)
 
