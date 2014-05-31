@@ -31,7 +31,7 @@
     submitEmail: function() {
       var aucEmail;
       aucEmail = this.$el.find('.email-text').val();
-      return $.post('/submit/email', {
+      return $.post('/email/submit', {
         'email': aucEmail
       }, function(response) {
         if (response.success) {

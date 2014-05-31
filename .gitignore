@@ -36,6 +36,5 @@ node_modules
 *.o
 *.beam
 *.plt
-deps
 erl_crash.dump
 log

@@ -7,7 +7,7 @@ Omak.Views.homeView = Backbone.View.extend(
 		'keyup input.email-text': 'validateEmail'
 	submitEmail: ->
 		aucEmail = @$el.find('.email-text').val()
-		$.post('/submit/email', {'email': aucEmail}, (response) ->
+		$.post('/email/submit', {'email': aucEmail}, (response) ->
 			if response.success
 				$.UIkit.notify(
 					message: 'Great! We sent you an email to validate your email'

@@ -1,2 +1,2 @@
--module(emails, [Id, Email]).
+-module(emails, [Id, Email, ValidationId]).
 -compile(export_all).
