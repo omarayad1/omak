@@ -1,0 +1,2 @@
+-module(pending_emails, [Id, Email, ValidationId, CreatedAt]).
+-compile(export_all).

@@ -68,6 +68,21 @@
     }
   });
 
+  Omak.Views.validateView = Backbone.View.extend({
+    el: $('#content'),
+    tagName: 'div',
+    className: 'omak-validate',
+    events: {
+      'click button.submit-validation': 'submitValidation'
+    },
+    render: function() {
+      var compiledTemplate;
+      compiledTemplate = _.template($('#validation').html());
+      this.$el.html(compiledTemplate);
+      return this;
+    }
+  });
+
 }).call(this);
 
 (function() {
@@ -79,7 +94,8 @@
       'home': 'home',
       'database': 'database',
       'about': 'about',
-      'faq': 'faq'
+      'faq': 'faq',
+      'validateEmail/:validationKey': 'validateEmail'
     }
   });
 
@@ -94,6 +110,16 @@
     viewOfHome = new Omak.Views.homeView;
     viewOfHome.setElement('#content');
     return viewOfHome.render();
+  });
+
+  omakRouter.on('route:validateEmail', function(validationKey) {
+    var viewOfValidation;
+    $.get('/email/validate/' + validationKey, function(data) {
+      return console.log(data);
+    });
+    viewOfValidation = new Omak.Views.validateView;
+    viewOfValidation.setElement('#content');
+    return viewOfValidation.render();
   });
 
   Backbone.history.start();

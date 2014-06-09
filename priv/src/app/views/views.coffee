@@ -34,3 +34,15 @@ Omak.Views.homeView = Backbone.View.extend(
 		@$el.html(compiledTemplate)
 		@
 	)
+
+Omak.Views.validateView = Backbone.View.extend(
+	el: $('#content')
+	tagName: 'div'
+	className: 'omak-validate'
+	events:
+		'click button.submit-validation': 'submitValidation'
+	render: ->
+		compiledTemplate = _.template($('#validation').html())
+		@$el.html(compiledTemplate)
+		@
+	)

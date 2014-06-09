@@ -1,2 +1,0 @@
--module(emails, [Id, Email, ValidationId]).
--compile(export_all).

@@ -64,3 +64,7 @@ p {
 	color: #eee;
 	text-decoration: none;
 }
+.submit-data-form input {
+	width: 100%;
+	margin-bottom: 10px;
+}
