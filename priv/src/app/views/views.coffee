@@ -46,3 +46,6 @@ Omak.Views.validateView = Backbone.View.extend(
 		@$el.html(compiledTemplate)
 		@
 	)
+Omak.Views.validateErrorView = Backbone.View.extend(
+  
+)

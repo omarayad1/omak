@@ -113,13 +113,19 @@
   });
 
   omakRouter.on('route:validateEmail', function(validationKey) {
-    var viewOfValidation;
-    $.get('/email/validate/' + validationKey, function(data) {
-      return console.log(data);
+    return $.get('/email/validate/' + validationKey, function(data) {
+      var goodData, viewOfValidation;
+      goodData = data;
+      console.log(goodData.value);
+      if (goodData.value.length > 0) {
+        console.log(goodData);
+        viewOfValidation = new Omak.Views.validateView;
+        viewOfValidation.setElement('#content');
+        return viewOfValidation.render();
+      } else {
+        return console.log("batee5");
+      }
     });
-    viewOfValidation = new Omak.Views.validateView;
-    viewOfValidation.setElement('#content');
-    return viewOfValidation.render();
   });
 
   Backbone.history.start();

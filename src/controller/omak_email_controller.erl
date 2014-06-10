@@ -24,5 +24,4 @@ submit('POST', []) ->
 validate('GET', [ValidationId]) ->
 	ssl:start(),
 	Record = boss_db:find(pending_emails, [{validation_id, ValidationId}]),
-	io:format(Record),
 	{json, [{value, Record}]}.

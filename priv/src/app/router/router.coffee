@@ -17,11 +17,13 @@ omakRouter.on 'route:home', ->
 	viewOfHome.setElement('#content')
 	viewOfHome.render()
 omakRouter.on 'route:validateEmail', (validationKey) ->
-	$.get('/email/validate/' + validationKey, (data) ->
-		console.log(data)
-		)
-	viewOfValidation = new Omak.Views.validateView
-	viewOfValidation.setElement('#content')
-	viewOfValidation.render()
+	$.get '/email/validate/' + validationKey, (data) ->
+    if data.value.length > 0
+      console.log(data)
+      viewOfValidation = new Omak.Views.validateView
+      viewOfValidation.setElement('#content')
+      viewOfValidation.render()
+    else
+      console.log("batee5")
 
 Backbone.history.start()
