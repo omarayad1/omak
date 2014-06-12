@@ -19,11 +19,9 @@ omakRouter.on 'route:home', ->
 omakRouter.on 'route:validateEmail', (validationKey) ->
 	$.get '/email/validate/' + validationKey, (data) ->
     if data.value.length > 0
-      console.log(data)
-      viewOfValidation = new Omak.Views.validateView
-      viewOfValidation.setElement('#content')
+      viewOfValidation = new Omak.Views.validateView({model: data.value[0]})
       viewOfValidation.render()
     else
-      console.log("batee5")
-
+      viewOfValidation = new Omak.Views.validateErrorView
+      viewOfValidation.render()
 Backbone.history.start()

@@ -36,16 +36,28 @@ Omak.Views.homeView = Backbone.View.extend(
 	)
 
 Omak.Views.validateView = Backbone.View.extend(
-	el: $('#content')
-	tagName: 'div'
-	className: 'omak-validate'
-	events:
-		'click button.submit-validation': 'submitValidation'
-	render: ->
-		compiledTemplate = _.template($('#validation').html())
-		@$el.html(compiledTemplate)
-		@
-	)
+  el: $('#content')
+  template: _.template($('#validation').html())
+  model:
+    email: 'default@batee5.com'
+    validation_id: 'allYourBaseBelongToUs'
+  tagName: 'div'
+  className: 'omak-validate'
+  events:
+    'keyup input': 'validateInput'
+    'click submit-personal-data': 'personalSubmit'
+  render: ->
+    userData = @model
+    compiledTemplate = @template(userData)
+    @$el.html(compiledTemplate)
+    @
+  )
 Omak.Views.validateErrorView = Backbone.View.extend(
-  
+  el: $('#content')
+  template: _.template($('#validation-error').html())
+  tagName: 'div'
+  className: 'omak-validate-error'
+  render: ->
+    @$el.html(@template)
+    @
 )

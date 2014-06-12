@@ -68,3 +68,10 @@ p {
 	width: 100%;
 	margin-bottom: 10px;
 }
+.omak-validate-error h1 {
+    margin-bottom: 3%;
+}
+.omak-validate-error p {
+    font-size: 1.3em;
+    text-align: center;
+}

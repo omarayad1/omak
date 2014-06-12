@@ -23,13 +23,20 @@
 				</form>
 			</div>
 		</script>
+        <script type='text/template' id="validation-error">
+            <div class='omak-validate-error content-container uk-panel uk-border-rounded uk-panel-box uk-width-1-3 uk-container-center'>
+                <h1>Error</h1>
+                <p>Your validation link is either invalid or expired please try again</p>
+            </div>
+        </script>
 		<script type='text/template' id="validation">
 			<div class='content-container uk-panel uk-border-rounded uk-panel-box uk-width-1-3 uk-container-center'>
 				<h1>E-mail</h1>
 				<h3> Validation</h3>
 				<p>please enter your personal data below</p>
 				<form class='uk-form submit-data-form'>
-					<input class="email-text" type='text' placeholder='Validation Key' style="display: none;">
+					<input class="validation-text" type='text' placeholder='Validation Key' value='<%= validation_id %>' style="display: none;" disabled>
+                    <input class="email-text" type='text' placeholder='Email' value='<%= email %>' disabled>
 					<input class="first-name-text" type='text' placeholder='First Name'>
 					<input class="last-name-text" type='text' placeholder='Last Name'>
 					<input class="univ-id-text" type='text' placeholder='University Id'>

@@ -70,15 +70,33 @@
 
   Omak.Views.validateView = Backbone.View.extend({
     el: $('#content'),
+    template: _.template($('#validation').html()),
+    model: {
+      email: 'default@batee5.com',
+      validation_id: 'allYourBaseBelongToUs'
+    },
     tagName: 'div',
     className: 'omak-validate',
     events: {
-      'click button.submit-validation': 'submitValidation'
+      'keyup input': 'validateInput',
+      'click submit-personal-data': 'personalSubmit'
     },
     render: function() {
-      var compiledTemplate;
-      compiledTemplate = _.template($('#validation').html());
+      var compiledTemplate, userData;
+      userData = this.model;
+      compiledTemplate = this.template(userData);
       this.$el.html(compiledTemplate);
+      return this;
+    }
+  });
+
+  Omak.Views.validateErrorView = Backbone.View.extend({
+    el: $('#content'),
+    template: _.template($('#validation-error').html()),
+    tagName: 'div',
+    className: 'omak-validate-error',
+    render: function() {
+      this.$el.html(this.template);
       return this;
     }
   });
@@ -114,16 +132,15 @@
 
   omakRouter.on('route:validateEmail', function(validationKey) {
     return $.get('/email/validate/' + validationKey, function(data) {
-      var goodData, viewOfValidation;
-      goodData = data;
-      console.log(goodData.value);
-      if (goodData.value.length > 0) {
-        console.log(goodData);
-        viewOfValidation = new Omak.Views.validateView;
-        viewOfValidation.setElement('#content');
+      var viewOfValidation;
+      if (data.value.length > 0) {
+        viewOfValidation = new Omak.Views.validateView({
+          model: data.value[0]
+        });
         return viewOfValidation.render();
       } else {
-        return console.log("batee5");
+        viewOfValidation = new Omak.Views.validateErrorView;
+        return viewOfValidation.render();
       }
     });
   });
