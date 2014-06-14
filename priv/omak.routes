@@ -17,6 +17,7 @@
 {"/", [{controller, "index"}, {action, "index"}]}.
 {"/email/submit", [{controller, "email"},{action, "submit"}]}.
 {"/email/validate/:ValidationId", [{controller, "email"}, {action, "submit"}]}.
+{"/email/insertEmail", [{controller, "email"}, {action, "insertEmail"}]}.
 % 404 File Not Found handler
 % {404, [{controller, "world"}, {action, "lost"}]}.
 

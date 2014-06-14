@@ -73,16 +73,47 @@
     tagName: 'div',
     className: 'omak-validate',
     events: {
-      'keyup input.univ-id-text': 'validateId'
+      'keyup input.univ-id-text': 'validateId',
+      'keyup input.mobile-text': 'validateMobile',
+      'keyup input': 'validateAll',
+      'click .submit-personal-data': 'personalSubmit'
     },
-    validateId: function() {
-      if (this.$el.find('.univ-id-text').val().indexOf('900') !== 0 || this.$el.find('.univ-id-text').val().length !== 9) {
-        this.$el.find('.univ-id-text').removeClass('uk-form-success');
-        this.$el.find('.univ-id-text').addClass('uk-form-danger');
+    personalSubmit: function() {
+      return $.post('/email/insertEmail', {
+        'email': this.$el.find('.email-text').val(),
+        'validation_id': this.$el.find('.validation-text').val()
+      });
+    },
+    validateAll: function() {
+      if (this.validateId() && this.validateMobile() && this.$el.find('.first-name-text').val() && this.$el.find('.last-name-text').val()) {
+        return this.$el.find('.submit-personal-data').removeAttr('disabled');
+      } else {
+        return this.$el.find('.submit-personal-data').attr('disabled', 'disabled');
+      }
+    },
+    validateMobile: function() {
+      var mobileNumber;
+      mobileNumber = this.$el.find('.mobile-text');
+      if (mobileNumber.val().length !== 11 || !mobileNumber.val().match(/^\d+$/) || mobileNumber.val().indexOf('01') !== 0) {
+        mobileNumber.removeClass('uk-form-success');
+        mobileNumber.addClass('uk-form-danger');
         return false;
       } else {
-        this.$el.find('.univ-id-text').addClass('uk-form-success');
-        this.$el.find('.univ-id-text').removeClass('uk-form-danger');
+        mobileNumber.removeClass('uk-form-danger');
+        mobileNumber.addClass('uk-form-success');
+        return true;
+      }
+    },
+    validateId: function() {
+      var univId;
+      univId = this.$el.find('.univ-id-text');
+      if (univId.val().indexOf('900') !== 0 || univId.val().length !== 9 || !univId.val().match(/^\d+$/)) {
+        univId.removeClass('uk-form-success');
+        univId.addClass('uk-form-danger');
+        return false;
+      } else {
+        univId.addClass('uk-form-success');
+        univId.removeClass('uk-form-danger');
         return true;
       }
     },

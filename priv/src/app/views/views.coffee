@@ -14,14 +14,14 @@ Omak.Views.homeView = Backbone.View.extend(
           message: 'Great! We sent you an email to validate your email'
           status: 'success'
           timeout: 3000
-          )
+        )
       else if !response.success
         $.UIkit.notify(
           message: 'We sense you trying to play our systems'
           status: 'warning'
           timeout: 3000
-          )
-      )
+        )
+    )
   validateEmail: ->
     enteredEmail = @$el.find('.email-text').val()
     if enteredEmail.indexOf('@aucegypt.edu') > 0
@@ -33,7 +33,7 @@ Omak.Views.homeView = Backbone.View.extend(
   render: ->
     @$el.html(@template)
     @
-  )
+)
 
 Omak.Views.validateView = Backbone.View.extend(
   el: $('#content')
@@ -42,22 +42,42 @@ Omak.Views.validateView = Backbone.View.extend(
   className: 'omak-validate'
   events:
     'keyup input.univ-id-text': 'validateId'
-    # 'click .submit-personal-data': 'personalSubmit'
-  validateId: ->
-    if @$el.find('.univ-id-text').val().indexOf('900') != 0 or @$el.find('.univ-id-text').val().length != 9
-      @$el.find('.univ-id-text').removeClass('uk-form-success')
-      @$el.find('.univ-id-text').addClass('uk-form-danger')
+    'keyup input.mobile-text': 'validateMobile'
+    'keyup input': 'validateAll'
+    'click .submit-personal-data': 'personalSubmit'
+  personalSubmit: ->
+    $.post('/email/insertEmail', {'email': @$el.find('.email-text').val(), 'validation_id': @$el.find('.validation-text').val()})
+  validateAll: ->
+    if @validateId() and @validateMobile() and @$el.find('.first-name-text').val() and @$el.find('.last-name-text').val()
+      @$el.find('.submit-personal-data').removeAttr('disabled')
+    else
+      @$el.find('.submit-personal-data').attr('disabled', 'disabled')
+  validateMobile: ->
+    mobileNumber = @$el.find('.mobile-text')
+    if mobileNumber.val().length != 11 or !mobileNumber.val().match(/^\d+$/) or mobileNumber.val().indexOf('01') != 0
+      mobileNumber.removeClass('uk-form-success')
+      mobileNumber.addClass('uk-form-danger')
       false
     else
-      @$el.find('.univ-id-text').addClass('uk-form-success')
-      @$el.find('.univ-id-text').removeClass('uk-form-danger')
+      mobileNumber.removeClass('uk-form-danger')
+      mobileNumber.addClass('uk-form-success')
+      true
+  validateId: ->
+    univId = @$el.find('.univ-id-text')
+    if univId.val().indexOf('900') != 0 or univId.val().length != 9 or !univId.val().match(/^\d+$/)
+      univId.removeClass('uk-form-success')
+      univId.addClass('uk-form-danger')
+      false
+    else
+      univId.addClass('uk-form-success')
+      univId.removeClass('uk-form-danger')
       true
   render: ->
     userData = @model
     compiledTemplate = @template(userData)
     @$el.html(compiledTemplate)
     @
-  )
+)
 
 Omak.Views.validateErrorView = Backbone.View.extend(
   el: $('#content')

@@ -25,3 +25,11 @@ validate('GET', [ValidationId]) ->
 	ssl:start(),
 	Record = boss_db:find(pending_emails, [{validation_id, ValidationId}]),
 	{json, [{value, Record}]}.
+insertEmail('POST', []) ->
+  ssl:start(),
+  ValidationId = Req:post_param("validation_id"),
+  Email = Req:post_param("email"),
+  Record = boss_db:find(pending_emails, [{validation_id, ValidationId}, {email,
+    Email}]),
+  io:format(element(4, lists:nth(1, Record))),
+  {json, [{sucess, true}]}.
