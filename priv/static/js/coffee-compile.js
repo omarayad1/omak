@@ -22,6 +22,7 @@
 (function() {
   Omak.Views.homeView = Backbone.View.extend({
     el: $('#content'),
+    template: _.template($('#home').html()),
     tagName: 'div',
     className: 'omak-home',
     events: {
@@ -38,13 +39,13 @@
           return $.UIkit.notify({
             message: 'Great! We sent you an email to validate your email',
             status: 'success',
-            timout: 3000
+            timeout: 3000
           });
         } else if (!response.success) {
           return $.UIkit.notify({
             message: 'We sense you trying to play our systems',
             status: 'warning',
-            timout: 3000
+            timeout: 3000
           });
         }
       });
@@ -61,9 +62,7 @@
       }
     },
     render: function() {
-      var compiledTemplate;
-      compiledTemplate = _.template($('#home').html());
-      this.$el.html(compiledTemplate);
+      this.$el.html(this.template);
       return this;
     }
   });
@@ -71,15 +70,21 @@
   Omak.Views.validateView = Backbone.View.extend({
     el: $('#content'),
     template: _.template($('#validation').html()),
-    model: {
-      email: 'default@batee5.com',
-      validation_id: 'allYourBaseBelongToUs'
-    },
     tagName: 'div',
     className: 'omak-validate',
     events: {
-      'keyup input': 'validateInput',
-      'click submit-personal-data': 'personalSubmit'
+      'keyup input.univ-id-text': 'validateId'
+    },
+    validateId: function() {
+      if (this.$el.find('.univ-id-text').val().indexOf('900') !== 0 || this.$el.find('.univ-id-text').val().length !== 9) {
+        this.$el.find('.univ-id-text').removeClass('uk-form-success');
+        this.$el.find('.univ-id-text').addClass('uk-form-danger');
+        return false;
+      } else {
+        this.$el.find('.univ-id-text').addClass('uk-form-success');
+        this.$el.find('.univ-id-text').removeClass('uk-form-danger');
+        return true;
+      }
     },
     render: function() {
       var compiledTemplate, userData;
