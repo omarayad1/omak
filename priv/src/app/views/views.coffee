@@ -46,7 +46,28 @@ Omak.Views.validateView = Backbone.View.extend(
     'keyup input': 'validateAll'
     'click .submit-personal-data': 'personalSubmit'
   personalSubmit: ->
-    $.post('/email/insertEmail', {'email': @$el.find('.email-text').val(), 'validation_id': @$el.find('.validation-text').val()})
+    $.post('/email/insertEmail', {
+        'email': @$el.find('.email-text').val()
+        'validation_id': @$el.find('.validation-text').val()
+        'first_name': @$el.find('.first-name-text').val()
+        'last_name': @$el.find('.last-name-text').val()
+        'univ_id': @$el.find('.univ-id-text').val()
+        'mobile_num': @$el.find('.mobile-text').val()
+      },
+    (response) ->
+      if response.success
+        $.UIkit.notify(
+          message: 'All is good, no errors'
+          status: 'success'
+          timeout: 3000
+        )
+      else if !response.success
+        $.UIkit.notify(
+          message: response.reason
+          status: 'warning'
+          timeout: 3000
+        )
+    )
   validateAll: ->
     if @validateId() and @validateMobile() and @$el.find('.first-name-text').val() and @$el.find('.last-name-text').val()
       @$el.find('.submit-personal-data').removeAttr('disabled')

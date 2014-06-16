@@ -81,7 +81,25 @@
     personalSubmit: function() {
       return $.post('/email/insertEmail', {
         'email': this.$el.find('.email-text').val(),
-        'validation_id': this.$el.find('.validation-text').val()
+        'validation_id': this.$el.find('.validation-text').val(),
+        'first_name': this.$el.find('.first-name-text').val(),
+        'last_name': this.$el.find('.last-name-text').val(),
+        'univ_id': this.$el.find('.univ-id-text').val(),
+        'mobile_num': this.$el.find('.mobile-text').val()
+      }, function(response) {
+        if (response.success) {
+          return $.UIkit.notify({
+            message: 'All is good, no errors',
+            status: 'success',
+            timeout: 3000
+          });
+        } else if (!response.success) {
+          return $.UIkit.notify({
+            message: response.reason,
+            status: 'warning',
+            timeout: 3000
+          });
+        }
       });
     },
     validateAll: function() {
@@ -167,7 +185,7 @@
   });
 
   omakRouter.on('route:validateEmail', function(validationKey) {
-    return $.get('/email/validate/' + validationKey, function(data) {
+    return $.get('/email/validate/' + encodeURIComponent(validationKey), function(data) {
       var viewOfValidation;
       if (data.value.length > 0) {
         viewOfValidation = new Omak.Views.validateView({

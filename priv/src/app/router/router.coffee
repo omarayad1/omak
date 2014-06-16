@@ -17,7 +17,7 @@ omakRouter.on 'route:home', ->
 	viewOfHome.setElement('#content')
 	viewOfHome.render()
 omakRouter.on 'route:validateEmail', (validationKey) ->
-	$.get '/email/validate/' + validationKey, (data) ->
+  $.get '/email/validate/' + encodeURIComponent(validationKey), (data) ->
     if data.value.length > 0
       viewOfValidation = new Omak.Views.validateView({model: data.value[0]})
       viewOfValidation.render()
